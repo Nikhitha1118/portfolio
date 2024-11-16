@@ -143,7 +143,7 @@ const Nav = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <motion.svg
+          {/* <motion.svg
             width='100%'
             height='100%'
             viewBox='0 0 256 256'
@@ -152,13 +152,7 @@ const Nav = () => {
             initial='hidden'
             animate='show'
           >
-            {/* <g transform='matrix(0.851114,0,0,0.826603,-212.779,-120.429)'>
-              <path d='M250,395.723L250,232.026L372.656,313.76L354.862,326.041L270.071,271.005L270.071,395.723L250,395.723Z' fill='currentColor' />
-              <path d='M499,205.318L499,395.672L478.205,395.672L478.205,244.373L446.141,264.874L428.353,252.457L499,205.318Z' fill='currentColor' />
-              <path d='M302,205.462L446.102,301.366L446,325.734L302.261,229.578L302,205.462Z' fill='currentColor' />
-              <path d='M531,395.726L530.942,245.574L550.782,232.164L550.782,395.726L531,395.726Z' fill='currentColor' />
-              <path d='M302,395.766L302,328.095L322.911,342.056L323,395.766L302,395.766Z' fill='currentColor' />
-            </g> */}
+    
             <g transform="translate(-160.000000,400.000000) scale(0.100000,-0.100000)">
             <path d="M0 2500 l0 -2500 2500 0 2500 0 0 2500 0 2500 -2500 0 -2500 0 0
             -2500z m1949 1404 c29 -6 31 -10 31 -48 l0 -41 -320 3 -320 3 0 -1095 0 -1096
@@ -177,7 +171,7 @@ const Nav = () => {
             65 c-9 84 -48 234 -81 308 -100 228 -280 386 -534 471 l-66 23 -3 48 c-2 36 0
             46 10 43 7 -3 50 -17 95 -32z" fill='currentColor'/>
 </g>
-          </motion.svg>
+          </motion.svg> */}
 
           <motion.p
             className='flex cursor-pointer font-mono text-[18px] font-bold text-text'
@@ -185,8 +179,8 @@ const Nav = () => {
             initial='hidden'
             animate='show'
           >
-            Machhar.&nbsp;
-            <span className='hidden md:block'>Darshee</span>
+            Jafar Aziz Shariff Mohammad
+             {/* <span className='hidden md:block'>Darshee</span> */}
           </motion.p>
         </Link>
         <ul className='hidden list-none flex-row gap-10 sm:flex'>

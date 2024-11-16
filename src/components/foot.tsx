@@ -26,7 +26,7 @@ const Foot = () => {
         {/* <span className='ml-3 mt-2 xs:mt-0'>lots of ❤️ !</span> */}
       </div>
       <p className='mt-5 text-[14px] opacity-75 '>
-        &copy; {new Date().getFullYear()} Darshee Machhar <br />
+        &copy; {new Date().getFullYear()} Jafar Aziz Shariff <br />
       </p>
       <a
         href='https://github.com/Darshee-m/Portfolio'

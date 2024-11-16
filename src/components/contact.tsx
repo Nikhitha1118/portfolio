@@ -122,10 +122,6 @@ const Contact = () => {
           )}
         </form>
       </motion.div>
-
-      {/* <motion.div variants={slideIn('right', 'tween', 0.2, 1) as Variants} className='h-[350px] md:h-[550px] xl:h-auto xl:w-[550px] xl:flex-1'>
-        <DogCanvas />
-      </motion.div> */}
     </div>
   );
 };

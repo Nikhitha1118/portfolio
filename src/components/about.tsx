@@ -43,10 +43,13 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn('', '', 0.1, 1) as Variants} className='section-text pointer-events-auto mt-4 max-w-3xl text-[17px] leading-[30px] text-text'>
-        As an experienced computer science professional with a Master&apos;s Degree in Computer Science from Rutgers University, I bring a strong foundation in Software Development, Data Engineering, Cloud Computing and Machine Learning. I am proficient in Python, TypeScript, JavaScript, Java, C# and Golang. Throughout my
-        journey, I&apos;ve worked with various frameworks like Flask, Django, Node.js, Spring Boot and Express.js. I&apos;m a quick learner, I thrive on collaboration
-        and enjoy creating efficient, scalable, and user-friendly solutions to tackle real-world problems. I&apos;m eager to work together and contribute my
-        skills to bring your ideas to life. Feel free to reach out and let&apos;s explore how we can create something great together!
+      AI Software Development Engineer Intern with a focus on machine learning and cloud infrastructure, 
+      currently pursuing a Master’s in Artificial Intelligence at the University of Cincinnati, 
+      with a 3.70 GPA. Experienced in designing and deploying ML models for voice synthesis using 
+      RNNs and transformers, enhancing real-time processing with AWS. Proven track record in Android 
+      development through a Google-supported internship, where I integrated AI/ML APIs to boost app performance 
+      and user satisfaction. Skilled in data analysis, cloud technologies, and deep learning, with successful 
+      projects in predictive modeling and object detection, leveraging tools like TensorFlow, PyTorch, and AWS for scalable solutions.
       </motion.p>
 
       <div className='mt-20 flex select-none flex-wrap gap-10'>

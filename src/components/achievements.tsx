@@ -61,19 +61,43 @@ const AchievementCard = ({
 
 const Achievements = () => {
   return (
-    <div className='pointer-events-auto mt-12 rounded-[20px] bg-secondary'>
-      <div className='padding min-h-[300px] rounded-2xl bg-gradient-to-b from-primary to-accent md:bg-gradient-to-r'>
-        <motion.div variants={textVariant() as Variants}>
-          <p className='section-subtitle'>Some Awards and Achievements</p>
-          <h2 className='section-title pointer-events-none'>Hackathon Wins</h2>
-        </motion.div>
-      </div>
-      <div className='paddingX -mt-20 flex flex-wrap gap-7 pb-14'>
-        {achievements.map((achievement, index) => (
-          <AchievementCard key={achievement.name} index={index} {...achievement} />
-        ))}
+<>
+    <div className='p-8 min-h-[100px] rounded-2xl bg-gradient-to-b from-primary to-accent md:bg-gradient-to-r flex flex-col justify-center items-start'>
+  <motion.div variants={textVariant() as Variants} className='w-full'>
+  <h2 className="section-title pointer-events-none"> SCHOLARLY PRESENTATIONS
+     </h2>
+  </motion.div>
+</div>
+
+<div className='px-15 -mt-5 flex flex-wrap gap-7 pb-15 w-full justify-center'>
+  <div className='paddingX -mt-12 flex flex-wrap gap-7 pb-14 w-full'>
+    <div className='w-full md:w-[100%] lg:w-[100%] pointer-events-auto mt-12 rounded-[20px] bg-secondary p-8 shadow-lg'>
+      <div className='flex w-full'>
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1) as Variants}
+          className='text-base leading-relaxed max-w-3xl text-text'
+        >
+          <p className="mt-4">
+         <strong>Automatic Customer Review from Facial Expression Using Deep Learning</strong><br />
+        Jan. 2023 – May 2023<br />
+         SRM Institute of Science and Technology, Chennai, India
+       </p>
+      
+       <ul className="mt-2">
+         <li>
+           Led a team in deep learning research for sentiment analysis, showcased at the International Conference on Science and Innovative Engineering 2023.
+         </li>
+         <li>
+           Enhanced positive feedback by 40% and reduced negative reviews by 25%.
+        </li>
+     </ul>
+        </motion.p>
       </div>
     </div>
+  </div>
+</div>
+</>
+
   );
 };
 
