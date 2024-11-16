@@ -5,7 +5,7 @@ const HeroSocial = () => {
   return (
     <div className='mt-5 flex flex-row gap-3'>
       <motion.a
-        href='https://www.linkedin.com/in/mohammad-jafar-ba19921a3/'
+        href='https://www.linkedin.com/in/jafar-mohammad-ba19921a3/'
         target='_blank'
         rel='noreferrer'
         className='h-9 w-9 cursor-pointer text-text hover:text-primary focus:text-primary'
@@ -34,7 +34,7 @@ const HeroSocial = () => {
         </svg>
       </motion.a>
       <motion.a
-        href='https://github.com/Darshee-m'
+        href='https://github.com/Jafar-97'
         target='_blank'
         rel='noreferrer'
         className='h-9 w-9 cursor-pointer text-text hover:text-primary focus:text-primary'

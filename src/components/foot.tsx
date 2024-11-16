@@ -1,4 +1,3 @@
-import { techUsed } from '../constants';
 import Image from 'next/image';
 
 const Foot = () => {

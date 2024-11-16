@@ -37,7 +37,7 @@ const Hero = () => {
 
   return (
     <section className="relative z-10 mx-auto h-screen-large w-full select-none">
-      {/* <HeroImage /> */}
+      <HeroImage />
       <div className="paddingX absolute inset-0 top-[80px] mx-auto flex max-w-7xl flex-row items-start gap-5 xs:top-[120px]">
         <div className="pointer-events-auto mt-5 flex flex-col items-center justify-center">
           <div className="h-5 w-5 rounded-full bg-primary" />
