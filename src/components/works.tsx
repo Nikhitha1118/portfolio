@@ -157,6 +157,20 @@ AWS Lambda for fast processing
             bounding boxes, using Python, PyTorch, OpenCV, and Matplotlib
             </li>
           </ul>
+          <br/>
+          <span className='font-semibold text-lg text-primary'>Real-Time Weather Data Viewer Application</span>
+          <br />
+          <span className='text-sm text-gray-400'>SRM Institute of Science andTechnology, Chennai, India</span>
+          <ul className='mt-6 list-disc list-inside'>
+            <li className='mt-2'>
+            Fetches weather data from external APIs or simulated sources, processes it using AWS Lambda, and stores it in DynamoDB.
+            Utilizes API Gateway, Kinesis, and DynamoDB to ensure smooth data flow and real-time availability for end-users.
+
+            </li>
+            <li className='mt-2'>
+            Hosts a static website on S3 that provides a visually appealing interface for displaying real-time weather updates.
+            </li>
+          </ul>
         </motion.p>
       </div>
     </div>
